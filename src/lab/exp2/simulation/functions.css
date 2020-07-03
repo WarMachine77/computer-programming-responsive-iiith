@@ -251,7 +251,7 @@ body {
 .imageRectangle {
     left: 50%;
     top: 0%;
-    background-image: url('rectangle.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBNrosVk2RtHx58hSiVqW8TZN1YYdYelLvng&usqp=CAU');
     border: 1px dashed black;
 }
 
