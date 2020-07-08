@@ -176,16 +176,16 @@ window.view = {
 			this.displayLoop('forLoopContent', 'codeContentFor1')
 		}
 		if (inputValue == '' || inputValue < 0 || inputValue > 20) {
-				alert('Invalid Input')
-				return false
+			alert('Invalid Input')
+			return false
 		}
 		else if (selected_loop === 'while' && inputValue !== '' && !isNaN(model.inp))
 		{
 			this.displayLoop('whileLoopContent', 'codeContentWhile1')
 		}
 		if (inputValue == '' || inputValue < 0 || inputValue > 20) {
-				alert('Invalid Input')
-				return false
+			alert('Invalid Input')
+			return false
 		}			
 		else if (selected_loop === 'do-while' && inputValue !== '' && !isNaN(model.inp))
 		{
